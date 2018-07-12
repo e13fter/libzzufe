@@ -2,7 +2,7 @@ CC := gcc
 
 default: libzzufe
 
-libzzuf:
+libzzufe:
 	$(CC) -fPIC -c *.c
 	ar cr libzzufe.a *.o
 	ranlib libzzufe.a
